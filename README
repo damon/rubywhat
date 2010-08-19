@@ -1,0 +1,20 @@
+the basic idea is to use Twitter to source URLs/descriptions of useful resources in a category
+
+no users yet in the models, but add basic oauth so you can verify who it is
+   -> soopa, feel free to add a user model and enough fields to do twitter oauth if you have time
+
+possibly have it moderated or possibly have it seeded with a list of known rubyists who are auto-approved
+
+add a bit to a resource and/or a particular person's submissions if for whatever reason they are messing
+  with us and submitting spam or crap
+
+maybe add voting later, but i just want the basics there for now
+
+features:
+
+  - home page has a search and a list of resources
+  - changing the search filters out the resources that match (either live or not, doesn't matter)
+
+Any design help you can offer would be great, soopa
+
+awesome!
