@@ -15,4 +15,9 @@ end
 
 class Resource < ActiveRecord::Base
   belongs_to :category
+  belongs_to :user
+end
+
+class User < ActiveRecord::Base
+
 end
