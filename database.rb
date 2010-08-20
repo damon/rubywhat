@@ -10,7 +10,9 @@ ActiveRecord::Base.establish_connection(
 
 # models
 class Category < ActiveRecord::Base
+  has_many :resources
 end
 
 class Resource < ActiveRecord::Base
+  belongs_to :category
 end
